@@ -15,6 +15,18 @@
               "-framework", "AudioToolBox"
             ]
           }
+        }],
+        ["OS == 'linux'", {
+          "sources": [
+            "src/pulse.cc"
+          ],
+          "include_dirs": [
+            "vendor"
+          ],
+          "libraries": [
+            "-lpulse",
+            "-lpulse-simple"
+          ]
         }]
       ]
     }
