@@ -1,0 +1,9 @@
+{
+  "name": "line-in",
+  "version": "0.0.0",
+  "repository": "LinusU/node-line-in",
+  "license": "MIT",
+  "devDependencies": {
+    "nan": "^2.3.3"
+  }
+}
