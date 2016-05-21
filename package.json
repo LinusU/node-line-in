@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "repository": "LinusU/node-line-in",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "nan": "^2.3.3"
   }
 }
