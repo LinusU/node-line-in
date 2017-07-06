@@ -26,4 +26,4 @@ input.pipe(output)
 
 Returns a `Readable` stream that emits chunks of raw audio data.
 
-Currently only 2-channel 16-bit little-endian signed integer pcm encoded data is supported.
+Currently only 2-channel 16-bit little-endian signed integer pcm encoded data at a 44100 Hz sample rate is supported.
